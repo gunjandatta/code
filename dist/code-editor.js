@@ -170,7 +170,7 @@ eval("module.exports = function(module) {\n\tif (!module.webpackPolyfill) {\n\t\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// Module\nvar code = \"<div class=\\\"row mb-3\\\">\\r\\n    <div class=\\\"col\\\" id=\\\"btnRun\\\"></div>\\r\\n</div>\\r\\n<div class=\\\"row\\\">\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"editor\\\">// Use the 'app' variable to reference the output panel's main element.\\r\\n// Example Button:\\r\\nGD.Components.Button({\\r\\n    el: app,\\r\\n    text: \\\"Example\\\",\\r\\n    onClick: function() {\\r\\n        alert(\\\"You clicked the button.\\\");\\r\\n    }\\r\\n});</div>\\r\\n    </div>\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"output\\\"></div>\\r\\n    </div>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack:///./src/index.html?");
+eval("// Module\nvar code = \"<style>\\r\\n    #editor {\\r\\n        min-height: 90vh;\\r\\n        min-width: 50vw;\\r\\n    }\\r\\n</style>\\r\\n<div class=\\\"row mb-3\\\">\\r\\n    <div class=\\\"col\\\" id=\\\"btnRun\\\"></div>\\r\\n</div>\\r\\n<div class=\\\"row\\\">\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"editor\\\">// Use the 'app' variable to reference the output panel's main element.\\r\\n// Example Button:\\r\\nGD.Components.Button({\\r\\n    el: app,\\r\\n    text: \\\"Example\\\",\\r\\n    onClick: function() {\\r\\n        alert(\\\"You clicked the button.\\\");\\r\\n    }\\r\\n});</div>\\r\\n    </div>\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"output\\\"></div>\\r\\n    </div>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack:///./src/index.html?");
 
 /***/ }),
 
