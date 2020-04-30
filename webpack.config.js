@@ -8,10 +8,10 @@ module.exports = (env, argv) => {
     return {
         // Main project file
         entry: [
-            "./node_modules/ace-builds/src-noconflict/ace.js",
-            "./node_modules/ace-builds/src-noconflict/ext-language_tools.js",
-            "./node_modules/ace-builds/src-noconflict/mode-javascript.js",
-            "./node_modules/ace-builds/src-noconflict/theme-monokai.js",
+            "./node_modules/ace-builds/src-min-noconflict/ace.js",
+            "./node_modules/ace-builds/src-min-noconflict/ext-language_tools.js",
+            "./node_modules/ace-builds/src-min-noconflict/mode-javascript.js",
+            "./node_modules/ace-builds/src-min-noconflict/theme-monokai.js",
             "./node_modules/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js",
             "./src/index.ts"
         ],
