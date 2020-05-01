@@ -170,7 +170,7 @@ eval("module.exports = function(module) {\n\tif (!module.webpackPolyfill) {\n\t\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// Module\nvar code = \"<div class=\\\"row mb-3\\\">\\r\\n    <div class=\\\"col\\\" id=\\\"btnRun\\\"></div>\\r\\n</div>\\r\\n<div class=\\\"row\\\">\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"output\\\"></div>\\r\\n    </div>\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"editor\\\">// Use the 'app' variable to reference the output panel's main element.</div>\\r\\n    </div>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack:///./src/flip.html?");
+eval("// Module\nvar code = \"<div class=\\\"row row-cols-1\\\">\\r\\n    <div class=\\\"col mb-3\\\" id=\\\"btnRun\\\"></div>\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"output\\\"></div>\\r\\n    </div>\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"editor\\\">// Use the 'app' variable to reference the output panel's main element.</div>\\r\\n    </div>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack:///./src/flip.html?");
 
 /***/ }),
 
@@ -181,7 +181,7 @@ eval("// Module\nvar code = \"<div class=\\\"row mb-3\\\">\\r\\n    <div class=\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// Module\nvar code = \"<div class=\\\"row mb-3\\\">\\r\\n    <div class=\\\"col\\\" id=\\\"btnRun\\\"></div>\\r\\n</div>\\r\\n<div class=\\\"row\\\">\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"editor\\\">// Use the 'app' variable to reference the output panel's main element.</div>\\r\\n    </div>\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"output\\\"></div>\\r\\n    </div>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack:///./src/index.html?");
+eval("// Module\nvar code = \"<div class=\\\"row row-cols-1\\\">\\r\\n    <div class=\\\"col mb-3\\\" id=\\\"btnRun\\\"></div>\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"editor\\\">// Use the 'app' variable to reference the output panel's main element.</div>\\r\\n    </div>\\r\\n    <div class=\\\"col\\\">\\r\\n        <div id=\\\"output\\\"></div>\\r\\n    </div>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack:///./src/index.html?");
 
 /***/ }),
 
