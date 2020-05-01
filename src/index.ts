@@ -46,6 +46,6 @@ window["CodeEditor"] = (el: HTMLElement) => {
     editor.setTheme("ace/theme/monokai");
     editor.session.setMode("ace/mode/javascript");
 
-    // Run the default code
-    (btn.el as HTMLInputElement).click();
+    // Return the editor
+    return editor;
 }
