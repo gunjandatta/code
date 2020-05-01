@@ -6,6 +6,9 @@ import * as HTMLFlip from "./flip.html";
 // Make the components available globally
 window["Components"] = Components;
 
+// Set the module url
+window["ace"].config.setModuleUrl("ace/mode/javascript_worker", "./dist/worker-javascript.js");
+
 // Main Method
 window["CodeEditor"] = (el: HTMLElement, flip: boolean = false) => {
     // Render the html

@@ -38,7 +38,7 @@ module.exports = (env, argv) => {
                 // Handle HTML Files
                 {
                     test: /\.html$/,
-                    exclude: "/node_modules/",
+                    exclude: /node_modules/,
                     use: [{ loader: "html-loader" }]
                 },
                 // Handle TypeScript Files

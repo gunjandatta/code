@@ -4,6 +4,7 @@
   "description": "A code-editor playground for the gd-sprest framework.",
   "main": "index.js",
   "scripts": {
+    "clean": "node ./clean.js",
     "build": "webpack --mode=development",
     "prod": "webpack --mode=production"
   },
