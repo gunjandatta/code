@@ -1,14 +1,15 @@
 import { edit } from "ace-builds";
 import { Components } from "gd-sprest-bs";
 import * as HTML from "./index.html";
+import * as HTMLFlip from "./flip.html";
 
 // Make the components available globally
 window["Components"] = Components;
 
 // Main Method
-window["CodeEditor"] = (el: HTMLElement) => {
+window["CodeEditor"] = (el: HTMLElement, flip: boolean = false) => {
     // Render the html
-    el.innerHTML = HTML as any;
+    el.innerHTML = (flip ? HTMLFlip : HTML) as any;
 
     // Create the run button
     let btn = Components.Button({
