@@ -15,7 +15,7 @@ window["CodeEditor"] = (el: HTMLElement, flip: boolean = false, defaultCode: str
     el.innerHTML = (flip ? HTMLFlip : HTML) as any;
 
     // Create the run button
-    let btn = Components.Button({
+    let btnRun = Components.Button({
         el: el.querySelector("#btnRun"),
         text: "Run",
         onClick: () => {
@@ -50,9 +50,15 @@ window["CodeEditor"] = (el: HTMLElement, flip: boolean = false, defaultCode: str
     editor.setTheme("ace/theme/monokai");
     editor.session.setMode("ace/mode/javascript");
 
-    // Set the default code
-    editor.setValue(defaultCode);
-    editor.moveCursorTo(0, 0);
+    // Set the default code if it exists
+    if (defaultCode) {
+        // Set the code
+        editor.setValue(defaultCode);
+        editor.moveCursorTo(0, 0);
+
+        // Run the code
+        btnRun.el.querySelector("button").click();
+    }
 
     // Return the editor
     return editor;
