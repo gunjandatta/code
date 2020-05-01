@@ -10,7 +10,7 @@ window["Components"] = Components;
 window["ace"].config.setModuleUrl("ace/mode/javascript_worker", "https://dattabase.com/code/dist/worker-javascript.js");
 
 // Main Method
-window["CodeEditor"] = (el: HTMLElement, flip: boolean = false) => {
+window["CodeEditor"] = (el: HTMLElement, flip: boolean = false, defaultCode: string = "") => {
     // Render the html
     el.innerHTML = (flip ? HTMLFlip : HTML) as any;
 
@@ -49,6 +49,10 @@ window["CodeEditor"] = (el: HTMLElement, flip: boolean = false) => {
     });
     editor.setTheme("ace/theme/monokai");
     editor.session.setMode("ace/mode/javascript");
+
+    // Set the default code
+    editor.setValue(defaultCode);
+    editor.moveCursorTo(0, 0);
 
     // Return the editor
     return editor;
