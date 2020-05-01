@@ -7,7 +7,7 @@ import * as HTMLFlip from "./flip.html";
 window["Components"] = Components;
 
 // Set the module url
-window["ace"].config.setModuleUrl("ace/mode/javascript_worker", "./dist/worker-javascript.js");
+window["ace"].config.setModuleUrl("ace/mode/javascript_worker", "https://dattabase.com/code/dist/worker-javascript.js");
 
 // Main Method
 window["CodeEditor"] = (el: HTMLElement, flip: boolean = false) => {
