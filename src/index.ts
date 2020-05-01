@@ -57,7 +57,7 @@ window["CodeEditor"] = (el: HTMLElement, flip: boolean = false, defaultCode: str
         editor.moveCursorTo(0, 0);
 
         // Run the code
-        btnRun.el.querySelector("button").click();
+        (btnRun.el as HTMLElement).click();
     }
 
     // Return the editor
