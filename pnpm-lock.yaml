@@ -1,6 +1,6 @@
 dependencies:
   ace-builds: 1.4.11
-  gd-sprest-bs: 4.2.8
+  gd-sprest-bs: 4.2.9
 devDependencies:
   '@babel/core': 7.9.6
   '@babel/preset-env': 7.9.6_@babel+core@7.9.6
@@ -2073,21 +2073,21 @@ packages:
     dev: true
     resolution:
       integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-  /gd-bs/2.2.6:
+  /gd-bs/2.2.8:
     dependencies:
       bootstrap: 4.5.0
       bootstrap-icons: 1.0.0-alpha3
     dev: false
     resolution:
-      integrity: sha512-UF5yOWnHWUeoSe2w3f/EoJUYxVsXIY4SxT2HIsn8y2AKzEuJiWogLULyhYfcCM2R4XCRqYzx5vcJguDeUsi3IA==
-  /gd-sprest-bs/4.2.8:
+      integrity: sha512-GbqUWToynViMrLYR+DV4A+0M1tlOJ3ZxiSTtexbtJMeUPZ0QlwrZnL8x1h6HIbFqlQMLZ85wtHu0HKC6fC3kdA==
+  /gd-sprest-bs/4.2.9:
     dependencies:
-      gd-bs: 2.2.6
+      gd-bs: 2.2.8
       gd-sprest: 5.6.6
       gd-sprest-def: 0.7.7
     dev: false
     resolution:
-      integrity: sha512-9oA7FG8Wu5tuAYz+KGqRMMrpRPGo4WkNXdEJ8GTXAZuptDBz2kjACqgOF/s8GxV7SXcKVhInDTNhwAlbJV+swQ==
+      integrity: sha512-DJqeA4psvTuNyz9TnK1GKswFe0PqyrCWmRUyzU6dVhVUllXmWiSDwhJ4c4ZccFmwOIDuvejUeJC1wzYVqxxtvg==
   /gd-sprest-def/0.7.7:
     dev: false
     resolution:
@@ -4227,7 +4227,7 @@ specifiers:
   '@babel/preset-env': ^7.9.6
   ace-builds: ^1.4.11
   babel-loader: ^8.1.0
-  gd-sprest-bs: ^4.2.8
+  gd-sprest-bs: ^4.2.9
   html-loader: ^1.1.0
   ts-loader: ^7.0.4
   webpack: ^4.43.0
