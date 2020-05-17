@@ -4,7 +4,6 @@
   "description": "A code-editor playground for the gd-sprest framework.",
   "main": "index.js",
   "scripts": {
-    "clean": "node ./clean.js",
     "build": "webpack --mode=development",
     "prod": "webpack --mode=production"
   },
@@ -21,14 +20,14 @@
   "homepage": "https://github.com/gunjandatta/code#readme",
   "dependencies": {
     "ace-builds": "^1.4.11",
-    "gd-sprest-bs": "^4.0.3"
+    "gd-sprest-bs": "^4.2.8"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "babel-loader": "^8.1.0",
     "html-loader": "^1.1.0",
-    "ts-loader": "^7.0.2",
+    "ts-loader": "^7.0.4",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   }
