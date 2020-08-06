@@ -19,16 +19,16 @@
   },
   "homepage": "https://github.com/gunjandatta/code#readme",
   "dependencies": {
-    "ace-builds": "^1.4.11",
-    "gd-sprest-bs": "^4.2.9"
+    "ace-builds": "^1.4.12",
+    "gd-sprest-bs": "^5.4.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
     "babel-loader": "^8.1.0",
     "html-loader": "^1.1.0",
-    "ts-loader": "^7.0.4",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "ts-loader": "^8.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }

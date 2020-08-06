@@ -12,7 +12,7 @@ module.exports = (env, argv) => {
             "./node_modules/ace-builds/src-min-noconflict/ext-language_tools.js",
             "./node_modules/ace-builds/src-min-noconflict/mode-javascript.js",
             "./node_modules/ace-builds/src-min-noconflict/theme-monokai.js",
-            "./node_modules/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js",
+            "./node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
             "./src/index.ts"
         ],
 
