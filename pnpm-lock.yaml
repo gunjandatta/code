@@ -1,6 +1,6 @@
 dependencies:
   ace-builds: 1.4.12
-  gd-sprest-bs: 8.4.6
+  gd-sprest-bs: 8.4.7
 devDependencies:
   '@babel/core': 7.15.5
   '@babel/preset-env': 7.15.6_@babel+core@7.15.5
@@ -1948,11 +1948,11 @@ packages:
     dev: true
     resolution:
       integrity: sha512-+in61CKYs4hQERiADCJsdgewpdl/X0GhEX77pjKgbeibXviIt2oxEjTc8O2fqHX8mDdBrDvX8MYD/RYsBv4OiA==
-  /core-js/3.17.3:
+  /core-js/3.18.0:
     dev: false
     requiresBuild: true
     resolution:
-      integrity: sha512-lyvajs+wd8N1hXfzob1LdOCCHFU4bGMbqqmLn1Q4QlCpDqWPpGf+p0nj+LNrvDDG33j0hZXw2nsvvVpHysxyNw==
+      integrity: sha512-WJeQqq6jOYgVgg4NrXKL0KLQhi0CT4ZOCvFL+3CQ5o7I6J8HkT5wd53EadMfqTDp1so/MT1J+w2ujhWcCJtN7w==
   /core-util-is/1.0.3:
     dev: true
     resolution:
@@ -2484,24 +2484,24 @@ packages:
     dev: true
     resolution:
       integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-  /gd-bs/5.1.1:
+  /gd-bs/5.1.2:
     dependencies:
       bootstrap: 5.1.1
       bootstrap-icons: 1.5.0
-      core-js: 3.17.3
+      core-js: 3.18.0
       tippy.js: 6.3.1
     dev: false
     resolution:
-      integrity: sha512-OUCb1dl03PCNhUAsrfrLrDsVwqki2e90eKTYxQ3mvmty811KH3FoK7tllXnWaFGE+aTqvNzG+SN/Rezuc0wRUA==
-  /gd-sprest-bs/8.4.6:
+      integrity: sha512-WXLOKnN6xoDwnfd12+3aoZ1yMKqQ5E5oPynzMdMEWafjA0vSKu2R0v5p48NuF3gQ/vPeZynTOMHNEgiPGEH59g==
+  /gd-sprest-bs/8.4.7:
     dependencies:
       flatpickr: 4.6.9
-      gd-bs: 5.1.1
+      gd-bs: 5.1.2
       gd-sprest: 6.5.9
       gd-sprest-def: 1.0.4
     dev: false
     resolution:
-      integrity: sha512-wDbURLAN7kRQW5GvBBy4KspExOb6NDgGnAbwERdIjy9Hx8m3WDp4U3QuItsvi/If66YT9jX0sbIJ5PNpkFAFOQ==
+      integrity: sha512-5FXPALDkKwlYM1U0nvJTZ7Z3OTOkYVu0wJAZuRi5Gd8TPflOqyfz+pvmt7aHPVbS5YFNj5p3fapFHKmHJD9Pew==
   /gd-sprest-def/1.0.4:
     dev: false
     resolution:
@@ -4578,7 +4578,7 @@ specifiers:
   '@babel/preset-env': ^7.15.6
   ace-builds: ^1.4.12
   babel-loader: ^8.2.2
-  gd-sprest-bs: ^8.4.6
+  gd-sprest-bs: ^8.4.7
   html-loader: ^1.3.2
   ts-loader: ^8.3.0
   webpack: ^4.46.0
